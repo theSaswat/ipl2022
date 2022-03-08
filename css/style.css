@@ -1,0 +1,204 @@
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+i{
+    color: white;    
+}
+
+body{
+    background-color: rgb(253, 253, 250);
+}
+
+header .navbar{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(95deg,#0a0a83, #2152cc );
+    align-items: center;
+    /* justify-content: space-between; */
+}
+/* 
+body{
+    background: linear-gradient(95deg,#0b0b66, #5c5ce6 );
+} */
+
+.navbar a img{
+    height: 60%;
+    padding: 20px;
+}
+
+.navbar .searchbar{
+    margin-left: 10rem;
+}
+
+.navbar .searchbar input{
+    /* font-size: 1.5rem; */
+    height: 2rem;
+    width: 25rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+.searchbar button{
+    /* font-size: 1.5rem; */
+    font-weight: 100;
+    width: 3rem;
+    height: 2rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.social_media{
+    display: flex;
+    margin-left: 5rem;
+    font-size: 25px;
+    font-weight: 100;
+    /* justify-content: space-between; */
+}
+.social_media a i{
+    margin-right: 10px;
+}
+.social_media a i:hover{
+    color: rgb(224, 66, 66);
+    font-size: 30px;
+}
+
+.account a,span{ 
+    text-decoration: none;
+    color: white;
+}
+.account a:hover{
+    text-decoration: underline;
+    /* color: rgb(224, 66, 66); */
+    font-size: 25px;
+}
+.account{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+
+
+.teams{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    background:linear-gradient(100deg,rgb(50, 7, 148),rgb(87, 154, 243),rgb(50, 7, 148));
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+    margin-bottom: 2rem;
+}
+
+/* Section Teams */
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+#teams a{
+    text-decoration: none;
+}
+
+.container{
+    width: 20%;
+    height: auto;
+    margin: 20px;
+    background-color: rgb(24 53 175);
+    border-radius: 5px;
+    box-shadow: 5px 10px rgb(100, 92, 92);
+    /* margin-bottom: 10px; */
+    transition: all ease 0.3s;
+}
+
+
+.container:hover{
+    background-color: #18184a;
+}
+
+.container  img{
+    width: 90%;
+    text-align: center;
+    margin: 5px;
+}
+.container p{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+/* footer */
+
+#footer{
+    background: linear-gradient(95deg,#0a0a83, #2152cc );
+    height: 13em;
+    margin-top: 3rem;
+}
+.footer1{
+    align-items: center;
+    display: flex;
+}
+
+.left, .right{
+    margin-top: 2rem;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.left{
+    letter-spacing: 2px;
+    font-style: monospace;
+    font-weight: 100;
+}
+
+.left a{
+    text-decoration: none;
+    color:white;
+}
+.left a:hover{
+    text-decoration: underline;
+    color: cyan;
+}
+
+.line{
+    margin-top: 2rem;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* teams players and logo*/
+
+
+
+
+

@@ -1,0 +1,39 @@
+@import 'style.css';
+
+.team_logo{
+    padding: 0;
+    background-color: #39186a;
+    position: relative;
+    height: 6rem;
+}
+.team_img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.team_name{
+    line-height: 6rem;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#teams{
+    margin-top: 10rem;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #39186a 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container:hover {
+    background-color: #39186a;
+}
+
+.container p{
+    color: black;
+}
